@@ -1,31 +1,27 @@
 # Alexandre Mourin
 
-### Strategy Consulting · Builds AI Systems
+**Strategy consulting · builds and ships AI agents · Paris**
 
-Building AI systems — agents, RAG, MCP tooling — with a strategy-consulting background that keeps them grounded in how businesses actually work.
+I build tools that real teams use every day, with a strategy-consulting background that keeps them tied to how businesses decide.
 
-[alexandremourin.com](https://alexandremourin.com) · [LinkedIn](https://linkedin.com/in/alexandre-mourin) · a.mourin.pro@gmail.com
+[alexandremourin.com](https://alexandremourin.com) · [LinkedIn](https://linkedin.com/in/alexandre-mourin-4b4a6a226) · a.mourin.pro@gmail.com
 
----
+## In production
 
-## What I build
+- ![in production](https://img.shields.io/badge/status-in%20production-2f7d4f) **SANDRO** (private) — my personal operating system run by AI agents on Claude Code: 10 modules, 14 scheduled agents, 5 capture agents, one Markdown memory consolidated nightly. Guard-rails: a 12-article constitution injected into every agent, tool allow-lists, 91 test cases.
 
-**Agents & RAG**
-- [ponder](https://github.com/alexandremourin/ponder) — self-correcting agentic RAG: grades its own retrieval, rewrites weak queries, cites sources, self-critiques.
-- [maestro](https://github.com/alexandremourin/maestro) — hierarchical multi-agent research: planner → parallel workers (web search) → synthesizer.
-- [patch](https://github.com/alexandremourin/patch) — end-to-end SWE-agent: locates a bug, edits, runs tests, returns a verified git diff.
-- [llm-council](https://github.com/alexandremourin/llm-council) — multi-LLM deliberation: parallel generation, anonymized peer-ranking, chairman synthesis.
-- [job-search-agent](https://github.com/alexandremourin/job-search-agent) — four-agent pipeline (scout → score → adapt → review) for a grounded job search.
+## Open source
 
-**Tooling & infra**
-- [needle](https://github.com/alexandremourin/needle) — MCP server for semantic code search (tree-sitter + BM25/dense/RRF, fully local).
-- [jarvis](https://github.com/alexandremourin/jarvis) — personal AI chief-of-staff: calendar-aware planning, inbox triage, deep-work modes.
-- [flywheel](https://github.com/alexandremourin/flywheel) — content pipeline: reference videos → ready-to-film scripts on a Notion board.
-- [life-os](https://github.com/alexandremourin/life-os) — minimalist personal-development PWA (React 19 + Supabase).
+- [ponder](https://github.com/alexandremourin/ponder) — agentic RAG that grades its own retrieval, rewrites weak queries, cites sources.
+- [needle](https://github.com/alexandremourin/needle) — MCP server for semantic code search, fully local (tree-sitter, BM25 + dense, RRF).
+- [maestro](https://github.com/alexandremourin/maestro) — hierarchical multi-agent research: planner, parallel workers, synthesizer.
+- [patch](https://github.com/alexandremourin/patch) — SWE-agent: locates a bug, edits, runs the tests, returns a verified diff.
+- [job-search-agent](https://github.com/alexandremourin/job-search-agent) — four-agent job-search pipeline on Claude Code, template without personal data.
 
-Also building: a quant trading bot (ML signals + LLM confirmation, in walk-forward validation) and Motion, an AI agency for SMBs.
-
----
+ponder, needle, maestro and patch are credited reimplementations of published designs, built to learn them end to end.
 
 ## Stack
-Python · TypeScript · LangGraph · MCP · FastAPI · React · Claude / OpenAI / Groq · Chroma · Supabase
+
+<img src="https://skillicons.dev/icons?i=python,ts,swift,react,nextjs,fastapi,supabase,sqlite,vercel,git,github,apple" alt="Python, TypeScript, Swift, React, Next.js, FastAPI, Supabase, SQLite, Vercel, Git, GitHub, macOS" />
+
+Claude Code and Claude API · MCP · LangGraph · launchd · macOS Keychain
