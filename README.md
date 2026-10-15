@@ -12,7 +12,6 @@ I build tools that real teams use every day, with a strategy-consulting backgrou
 
 ## Open source
 
-- ![36 cases](https://img.shields.io/badge/bench-36%2F36-2f7d4f) [agent-guardrails](https://github.com/alexandremourin/agent-guardrails) — guard-rails for headless Claude Code agents: a vault, a write scope, a proof of work, and a test bench that attacks them. Extracted from SANDRO, no dependency.
 - ![hard eval](https://img.shields.io/badge/hard%20eval-abstains%203%2F3-0b3d91) [ponder](https://github.com/alexandremourin/ponder) — agentic RAG that grades its own retrieval, rewrites weak queries, cites sources. Evaluated on paraphrased, multi-source and unanswerable questions.
 - [needle](https://github.com/alexandremourin/needle) — MCP server for semantic code search, fully local (tree-sitter, BM25 + dense, RRF).
 - [maestro](https://github.com/alexandremourin/maestro) — hierarchical multi-agent research: planner, parallel workers, synthesizer.
